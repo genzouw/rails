@@ -13,4 +13,4 @@ RUN apt-get update \
   && gem install bundler \
   ;
 
-RUN gem install rails -v ${DOCKER_TAG}
+RUN gem install rails -v 5.1.4
